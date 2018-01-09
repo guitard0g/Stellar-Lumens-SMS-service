@@ -27,7 +27,7 @@ app.post('/sms', (req, res) => {
 		// TODO carry out the request
 
 		// write success message
-  	twiml.message('Success blah blah');
+		twiml.message('Success blah blah');
 	}
 	catch(e){
 		// TODO handle error and send error message
