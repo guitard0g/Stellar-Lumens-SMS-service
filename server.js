@@ -16,7 +16,7 @@ app.post('/sms', (req, res) => {
 	const body = req.body.Body;
 
 	// instantiate twiml response
-  const twiml = new MessagingResponse();
+	const twiml = new MessagingResponse();
 
 	try{
 		// tokenize the sms
